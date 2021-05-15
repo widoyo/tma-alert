@@ -1,3 +1,5 @@
+const sveltePreprocess = require('svelte-preprocess')
+const pkg = require('./package.json')
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
